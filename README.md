@@ -57,12 +57,12 @@ Digit_Classification_XAI/
 
 **Classification Report (Macro Averages)**
 
-Model Evaluation Summary
--------------------------
-Accuracy : 0.0960
-Precision: 0.0213
-Recall   : 0.0960
-F1-Score : 0.0232
+| Metric      | Score   |
+|--------------|---------:|
+| **Accuracy** | 0.9600  |
+| **Precision**| 0.9607  |
+| **Recall**   | 0.9600  |
+| **F1-Score** | 0.9598  |
 
 ---
 
@@ -92,6 +92,7 @@ pip install -r requirements.txt
 ### 3. Train the model
 ```bash
 python -m src.main
+```
 
 ### 4. Explore explainability in Jupyter
 ```bash

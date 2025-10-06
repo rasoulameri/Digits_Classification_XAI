@@ -28,8 +28,8 @@ def train_model(model, train_loader, val_loader, epochs, optimizer, criterion, d
         val_acc, val_loss = evaluate_model(model, val_loader, criterion, device)
         print(f"[Epoch {epoch+1}] Train Acc={train_acc:.2f}%, Val Acc={val_acc:.2f}%")
 
-        # Save checkpoint every 10 epochs
-        if (epoch + 1) % 10 == 0:
+        # Save checkpoint every 50 epochs
+        if (epoch + 1) % 50 == 0:
             torch.save(model.state_dict(), os.path.join(checkpoint_dir, f"epoch_{epoch+1}.pth"))
 
         # Save best model
