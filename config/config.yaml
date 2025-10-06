@@ -1,0 +1,22 @@
+data:
+  train_dir: "./data/train"
+  test_dir: "./data/test"
+  batch_size: 16
+  img_size: [28, 28]
+  grayscale: true
+  val_split: 0.3
+
+train:
+  epochs: 200
+  lr: 0.001
+  optimizer: "adam"
+  weight_decay: 0.0001
+  checkpoint_dir: "./checkpoints"
+  save_best: true
+  early_stopping: false
+
+model:
+  num_classes: 10
+  dropout: 0.3
+
+device: "cuda"
