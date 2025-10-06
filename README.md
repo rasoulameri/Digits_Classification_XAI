@@ -106,6 +106,15 @@ jupyter notebook notebooks/EDA_and_Explainability.ipynb
 - Deterministic and reproducible results
 - Compatible with CPU and GPU
 
+---
+
+## 📫 Contact
+
+**Rasoul Ameri**  
+📧 [rasoulameri@gmail.com](mailto:rasoulameri90@gmail.com)  
+🔗 [GitHub Profile](https://github.com/rasoulameri)
+
+---
 
 
 
