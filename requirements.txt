@@ -1,5 +1,10 @@
 torch
 torchvision
 matplotlib
+seaborn
 numpy
-tqdm
+scikit-learn
+PyYAML
+opencv-python
+torchviz
+torchview

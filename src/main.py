@@ -35,7 +35,7 @@ def main():
         )
 
     os.makedirs(config["train"]["checkpoint_dir"], exist_ok=True)
-    best_path = os.path.join(config["train"]["checkpoint_dir"], "best_model.pth")
+    # best_path = os.path.join(config["train"]["checkpoint_dir"], "best_model.pth")
 
     train_model(
         model,
