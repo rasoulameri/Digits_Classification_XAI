@@ -78,7 +78,7 @@ Misclassified samples are analyzed to understand model bias or confusion.
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/<your_username>/Digit_Classification_XAI.git
+git clone https://github.com/rasoulameri/Digit_Classification_XAI.git
 cd Digit_Classification_XAI
 ```
 
